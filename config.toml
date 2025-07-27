@@ -1,0 +1,22 @@
+[game]
+# Grid dimensions (width x height)
+grid_width = 20
+grid_height = 20
+
+# Cell size in pixels
+cell_size = 30.0
+
+# Number of shield columns for each player
+shield_columns = 1
+
+# Game timing
+clock_rate = 2.0
+
+# Trail length (number of trail squares behind each wave)
+trail_length = 5
+
+[display]
+# Window settings
+window_width = 1200.0
+window_height = 800.0
+window_title = "Wave Wars"

@@ -1,0 +1,19 @@
+(A) Add a pause button with esc, which should show a menu of resuming, instructions, or quitting
+(B) Fix the trail system so that the trails are contiguous from the previous position to the new position, so they are more like trails, before they fade
+(C) Add a visual queue system to the bottom of the screen to show the next waves selected to be spawned. This may entail many changes.
+x Fix the draw order of the grid, shields, waves, and spawn buttons in that order, so buttons are rendered on top
+x Move the spawn points to always be atop the spawn buttons
+x Make the spawn buttons appear as slightly smaller waves, much like the trails are now
+x Switch the movement direction of the player and AI waves because the spawn direction was previously fixed
+x Add some trails or other visual effects to make the waves look more like waves and less like squares
+x Add a key press to switch the type of wave to spawn (using WASD)
+x Fix the spawner column -- it should be behind the column of shields
+x Make the spawner column match the color of the currently selected wave
+x Make the grid size configurable in a TOML file
+x Make the number of shield columns configurable in a TOML file
+x Make waves "slide past" each other (not collide) when they do not end on the same tile
+x Have explosions resulting from the collision disappear after one turn/cycle
+x Have shields be destroyed when they are collided with (they should have the same explosion)
+x Have the AI player shoot waves from the right-side instead of the left. The player's waves should go from the left to the right.
+x When one wave makes it past the shields, the proper win banner should show
+x Expand the grid to 20x20 to allow for more strategic and slower play
